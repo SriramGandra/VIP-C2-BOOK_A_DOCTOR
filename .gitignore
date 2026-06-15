@@ -1,0 +1,21 @@
+# Node dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local Env
+.env
+.env.local
+.env.production
+
+# React production build
+client/dist/
+
+# Express uploads (ignore uploaded reports but track directory)
+server/uploads/*
+!server/uploads/.gitkeep
+
+# System files
+.DS_Store
+Thumbs.db
